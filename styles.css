@@ -919,7 +919,7 @@ form .button button{
     }
     .about-section .content p{
         margin: 0;
-        font-size: 18px;
+        font-size: 16px;
         text-align: start;
         line-height: 1.5;
         padding-left: 9px;
@@ -969,6 +969,7 @@ form .button button{
         padding: 12px 11px;
         border: none;
         width: 100%;
+        height: auto;
     }
     .contact__form .controllers{
         width: 75%;
