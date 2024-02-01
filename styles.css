@@ -688,7 +688,7 @@ form .button button{
         transform: translate3d(0,0,0);
         visibility: visible;
     }
-    .list i{
+    .showmenu .list i{
         position: absolute;
         top: 4px;
         right: 1px;
