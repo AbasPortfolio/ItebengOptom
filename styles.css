@@ -790,7 +790,7 @@ form .button button{
 @media  screen and (max-width:830px) {
 
     .top span{
-        font-size: 20px;
+        font-size: 18px;
     }
     .top span i{
         font-size: 22px;
@@ -808,6 +808,9 @@ form .button button{
         color: white;
         top: 3px;
         right: 4px;
+    }
+    .logo{
+        display: flex;
     }
     .about-section{
         width: 100%;
@@ -900,7 +903,14 @@ form .button button{
     }
 
     .logo{
-        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: .5rem;
+    }
+    .logo span img{
+        align-self: center;
+        width: 70px;
     }
     
     .about-section{
@@ -921,7 +931,7 @@ form .button button{
         margin: 0;
         font-size: 16px;
         text-align: start;
-        line-height: 1.5;
+        line-height: 1.1;
         padding-left: 9px;
         padding-right: 9px;
         padding-bottom: 12px;
@@ -1020,6 +1030,13 @@ form .button button{
         font-size: 18px;
         z-index: 100;
     }
+    .logo{
+        margin-top: 0;
+    }
+    .logo span img{
+        align-self: flex-start;
+        width: 70px;
+    }
 
     .about-section .img img{
         width: 20%;
@@ -1049,7 +1066,7 @@ form .button button{
         padding: 30px 17px;
     }
     .contact__form .controllers{
-        width: 100%;
+        width: 90%;
     }
     .contact__form textarea{
         width: 100%;
