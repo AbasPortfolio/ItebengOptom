@@ -178,6 +178,9 @@ nav{
     justify-content: center;
     margin-bottom: 2.10rem;
 }
+.menu .my__logo{
+    height: fit-content;
+}
 .sm__img{
     width: 40%;
     align-self: center;
@@ -684,6 +687,9 @@ form .button button{
         visibility: hidden;
         transition: transform .3s, visibility .3s;
     }
+    .showmenu .menu ul li a::before{
+        display: none;
+    }
     .showmenu .menu .list{
         transform: translate3d(0,0,0);
         visibility: visible;
@@ -700,7 +706,11 @@ form .button button{
     .showmenu .list li a{
         font-size: 22px;
         color: white;
-    } 
+    }
+    .menu .my__logo{
+        height: fit-content;
+        width: 300px;
+    }
     
     .sub__menu{
         display: none;
@@ -809,6 +819,10 @@ form .button button{
         top: 3px;
         right: 4px;
     }
+    .menu .my__logo{
+        height: fit-content;
+        width: 260px;
+    }
     .logo{
         display: flex;
     }
@@ -891,6 +905,10 @@ form .button button{
         right: 5px;
         color: #ffffff;
         font-size: 30px;
+    }
+    .menu .my__logo{
+        width: 220px;
+        height: fit-content;
     }
     .menu .my__logo{
         width: 100px;
@@ -1013,6 +1031,7 @@ form .button button{
 
     .menu .my__logo{
         width: 200px;
+        height: fit-content;
     }
 
     .showmenu .list{
@@ -1023,6 +1042,7 @@ form .button button{
         font-size: 18px;
         display: flex;
         flex-direction: row;
+        height: auto;
     }
     .showmenu .list i{
         top: 12px;
