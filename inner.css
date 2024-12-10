@@ -147,7 +147,7 @@ img {
   }
   .nav__logo img{
     width: auto;
-    
+    filter: brightness(20);
   }
  
   .nav__logo:hover{
