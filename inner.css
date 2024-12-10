@@ -577,6 +577,9 @@ img {
   .container{
     margin-inline: 1rem;
   }
+  .nav__logo img{
+    width: 100px;
+  }
   .home__title{
     font-size: 2.5rem;
   }
