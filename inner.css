@@ -145,6 +145,10 @@ img {
     font-family: var(--second-font);
     transition: color .4s;
   }
+  .nav__logo img{
+    width: auto;
+    
+  }
  
   .nav__logo:hover{
     color: var(--first-color-alt);
