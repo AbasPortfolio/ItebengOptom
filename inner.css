@@ -578,7 +578,8 @@ img {
     margin-inline: 1rem;
   }
   .nav__logo img{
-    width: 100px;
+    width: 70px;
+    height: auto;
   }
   .home__title{
     font-size: 2.5rem;
