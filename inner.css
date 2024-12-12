@@ -114,7 +114,7 @@ img {
 
 .section__title {
   font-size: var(--bigger-font-size);
-  font-family: var(--second-font);
+  font-family: var(--body-font);
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -144,9 +144,12 @@ img {
     font-size: var(--h2-font-size);
     font-family: var(--second-font);
     transition: color .4s;
+    outline: none;
   }
   .nav__logo img{
     width: auto;
+    padding: 20px;
+    object-fit: cover;
   }
  
   .nav__logo:hover{
@@ -174,6 +177,7 @@ img {
       padding: 6rem 3rem 0;
       transition: right .4s;
     }
+
   }
   .nav__list{
     display: flex;
@@ -261,7 +265,7 @@ img {
   .home__shadow{
     background: linear-gradient(180deg, 
                 hsla(0, 0%, 0%, 0) 0%,
-                hsl(0, 0%, 6%) 100%);
+                hsl(0, 0%, 6%) 300%);
   }
   .home__data{
     position: relative;
@@ -269,7 +273,7 @@ img {
   }
   .home__title{
     font-size: var(--bigger-font-size);
-    font-family: var(--second-font);
+    font-family: var(--body-font);
     margin-bottom: 1.5rem;
   }
   .home__bread{
@@ -283,7 +287,8 @@ img {
     justify-self: center;
   }
   .home__img{
-    rotate: 15deg;
+    border-radius: 3%;
+    scale: .9;
   }
   .home__footer,
   .home__social,
@@ -320,8 +325,9 @@ img {
   /*=============== BUTTON ===============*/
   .button{
     display: inline-flex;
-    background-color: var(--first-color);
-    color: var(--black-color);
+    background-color: #333333;
+    color: var(--text-color);
+    border-radius: 4%;
     font-weight: var(--font-semi-bold);
     padding: 1.125rem 2rem;
     transition: background-color .4s;
@@ -335,6 +341,9 @@ img {
 .new__container{
     padding-top: 1.5rem;
     row-gap: 3.5rem;
+    border-radius: 12px;
+    padding: 12px;
+    background: #62a38c;
   }
   .new__content{
     row-gap: 2rem;
@@ -577,7 +586,8 @@ img {
     margin-inline: 1rem;
   }
   .nav__logo img{
-    width: 70px;
+    width: 120px;
+    object-fit: cover;
     height: auto;
   }
   .home__title{
@@ -632,6 +642,9 @@ img {
 @media screen and (min-width: 768px){
   .home{
     padding-top: 3rem;
+  }
+  .nav__logo img{
+    width: 140px;
   }
   .home__container{
     grid-template-columns: repeat(2, 350px);
