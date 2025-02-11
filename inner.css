@@ -419,7 +419,7 @@ img {
   }
   .favourite__title{
     font-size: var(--h2-font-size);
-    font-family: var(--second-font);
+    font-family: var(--body-font);
     color: var(--first-color);
   }
   .favourite__subtitle{
