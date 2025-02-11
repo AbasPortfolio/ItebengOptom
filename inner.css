@@ -343,7 +343,7 @@ img {
     row-gap: 3.5rem;
     border-radius: 12px;
     padding: 12px;
-    background: transparent;
+    background: #f5f3f6;
   }
   .new__content{
     row-gap: 2rem;
