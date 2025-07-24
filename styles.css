@@ -146,9 +146,9 @@ img {
     transition: color .4s;
   }
  
-  .nav__logo:hover{
+  /*.nav__logo:hover{
     color: var(--first-color-alt);
-  }
+  }*/
   .nav__toggle,
   .nav__close{
     font-size: 1.5rem;
@@ -321,11 +321,11 @@ img {
     color: var(--black-color);
     font-weight: var(--font-semi-bold);
     padding: 1.125rem 2rem;
-    transition: background-color .4s;
+    transition: .4s;
   }
-  .button:hover{
+  /*.button:hover{
     text: var(--black-color);
-  }
+  }*/
   
   /*=============== NEW ===============*/
 
