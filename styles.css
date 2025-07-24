@@ -324,7 +324,7 @@ img {
     transition: background-color .4s;
   }
   .button:hover{
-    background-color: var(--first-color-alt);
+    background-color: var(--black-color);
   }
   
   /*=============== NEW ===============*/
