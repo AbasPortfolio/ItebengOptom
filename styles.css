@@ -324,7 +324,7 @@ img {
     transition: background-color .4s;
   }
   .button:hover{
-    background-color: var(--black-color);
+    text: var(--black-color);
   }
   
   /*=============== NEW ===============*/
