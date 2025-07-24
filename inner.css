@@ -334,6 +334,7 @@ img {
   }
   .button:hover{
     background-color: var(--first-color-alt);
+    text: var(--black-color)
   }
   
   /*=============== NEW ===============*/
@@ -343,7 +344,7 @@ img {
     row-gap: 3.5rem;
     border-radius: 12px;
     padding: 12px;
-    background: #f5f3f6;
+    background: #215842; /* updated the background */
   }
   .new__content{
     row-gap: 2rem;
